@@ -1,0 +1,16 @@
+
+.frameNum {
+	border: 1px solid black;
+	width: 70px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	background-color: lightgray;
+}
+
+.frame {
+	border: 1px solid black;
+	width: 70px;
+	height: 100px;
+	float: left;
+}

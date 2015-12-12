@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en' ng-app = 'bowlingApp'>
+
+	<head>
+		<link  href="style.css" rel="stylesheet"/>
+		<script src="angular.min.js"></script>
+		<script src="app.js"></script>
+	</head>
+
+	<body ng-controller = BowlingController>
+		<h1>Bowling Scoresheet</h1>
+		<br/><br/>
+		<div>
+			<div class='frameNum' ng-repeat="frame in line track by $index">
+				{{$index+1}}
+			</div>
+		</div>
+
+		<br/><br/>
+
+		<div>	
+			<div class='frame' ng-repeat="frame in line track by $index">
+				<!--index {{$index}} -> frame {{frame}}-->
+				b1: {{frame[0]}}<br/>
+				b2: {{frame[1]}}<br/>
+				b3: {{frame[2]}}<br/>
+				sc: {{frame[3]}}<br/>
+				mk: {{frame[4]}}
+			</div>
+		</div>
+
+		<br/><br/><br/><br/><br/><br/>
+
+		<div>
+			<p>{{prompt}}</p>
+			<input type="text" ng-model="pins"> </input><br/>
+			<button ng-click="updateScore()">Score it</button><br/>
+
+		</div>
+	</body>
+
+</html
