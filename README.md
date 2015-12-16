@@ -35,5 +35,4 @@ If you roll a spare in the first two shots of the 10th frame, you get 1 more sho
 If you leave the 10th frame open after two shots, the game is over and you do not get an additional shot.
 
 How to Score: The score for the 10th frame is the total number of pins knocked down in the 10th frame.
-The user is prompted with the frame and ball, and inputs the number of pins knocked down.  
-
+The user is prompted with the frame and ball, and inputs the number of pins knocked down.
